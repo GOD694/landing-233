@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navBar">
+            <div class="logo">logo</div>
+            <div class="nav_elem">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <h1>Welcome</h1>
+                <p>This is my application.</p>
+                <button id="btn">Get Started</button>
+            </div>
+            <div class="right">
+                <div class="shadow"></div>
+                <div class="anime">
+                    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.90/build/spline-viewer.js"></script>
+                    <spline-viewer url="https://prod.spline.design/fMQJ6DeRhIe21H3f/scene.splinecode"></spline-viewer>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
